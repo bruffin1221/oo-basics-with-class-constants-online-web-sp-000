@@ -6,7 +6,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS<<brand
-    if BRANDS.size==3
+    if BRANDS.size!==3
       puts @brand
     end
   end
