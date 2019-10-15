@@ -6,8 +6,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS<<brand
-    if BRANDS.size!=3
-      puts @brand
+    puts BRANDS.uniq
     end
   end
 
