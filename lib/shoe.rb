@@ -6,13 +6,13 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS<<brand
-  end
-
-  def brands
     if BRANDS.size==3
       puts @brand
     end
   end
+
+
+
 
   def cobble
     self.condition = "new"
