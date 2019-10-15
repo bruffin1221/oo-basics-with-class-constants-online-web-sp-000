@@ -7,8 +7,8 @@ class Shoe
     @brand = brand
     BRANDS<<brand
     puts BRANDS.uniq
-    end
   end
+
 
 
 
